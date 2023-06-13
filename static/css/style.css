@@ -22,12 +22,13 @@ html, body {
 
 .container img {
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
     height: auto;
-    opacity: 0.5;
+    opacity: 1;
+    border-radius: 50%;
 }
 
 h1 {
