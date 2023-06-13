@@ -7,25 +7,20 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = './css/style.css') }}"> 
 
-    <!--<script src= "{{ url_for('static', filename = './particlesJS/script/particles.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'particles.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'app.js') }}"></script>
 
-    <script src="{{ url_for('static', filename = 'app.js') }}"></script>-->
 
 </head>
 <body>
     <div id="particles"></div>
-    
-    <script src="{{ url_for('static', filename='app.js') }}"></script>
-    <script>
-        particlesJS.load("particles", "{{ url_for('static', filename='particlesjs-config.json') }}");
-    </script>
     
     <div class="aa_sec">
         <div class="aa_txt">
             <span class="aa_inner">
                 Servi<span class="aa_of">
                     <span class="image-container">
-                        <img src="{{ url_for('static', filename = './img/logoServiSegur.jpg') }}">
+                        <!--<img src="{{ url_for('static', filename = './img/logoServiSegur.jpg') }}">-->
                     </span>
                 </span>Segur
             </span>
