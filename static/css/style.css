@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap);
+
 * {
     box-sizing: border-box;
 }
@@ -28,7 +30,6 @@ html, body {
     width: 130px;
     height: auto;
     opacity: 1;
-    border-radius: 50%;
 }
 
 h1 {
