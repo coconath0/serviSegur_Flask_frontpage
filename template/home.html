@@ -7,8 +7,19 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = './css/style.css') }}"> 
 
+    <!--<script src= "{{ url_for('static', filename = './particlesJS/script/particles.js') }}"></script>-->
+
+    <script src="{{ url_for('static', filename = 'app.js') }}"></script>
+
 </head>
 <body>
+    <div id="particles"></div>
+    
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+        particlesJS.load("particles", "{{ url_for('static', filename='particlesjs-config.json') }}");
+    </script>
+    
     <div class="aa_sec">
         <div class="aa_txt">
             <span class="aa_inner">
@@ -20,11 +31,9 @@
             </span>
         </div>
     </div>
-    <div id="particles"></div>
-    <div class="si">
 
-    </div>
-
+    
+    
     <div class="nath">
         Designed by <a href="https://github.com/coconath0">Nathaly Ingol</a> - &#169; to creators of tsparticles
     </div>
